@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const users = require('./routs/api/users');
 const profile = require('./routs/api/profile');
-const posts = require('./routs/api/posts');
+const posts = require('./routs/api/posts' );
 
 const app = express();
 
